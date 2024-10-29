@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,0">
+    <title>Mi Portafolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FontAwesome para iconos -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./styles.css2.css">
+</head>
+
+<body>
+    <!-- Incorporar icono de whatsapp flotante -->
+    <!-- Icono flotante de WhatsApp -->
+    <a href="https://wa.me/918087169=text=hola,%20contactame%porfavor" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+    </a>
+
+    <!-- Cabecera -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="./imgs/LOGO E1 (1).png" alt="logocq" style="width: 60px; height: 60%;"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./quienessomos.html">Quien Soy</a>
+                        </li>
+                        <li class="nav-item"></li>
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contactanos.html">Contactame</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <button class="btn btn-outline-success" type="submit"> <a href="./login.html"> Iniciar Sesión</a></button>
+                    </form>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Quienes somos¡-->
+    <section id="quienes somos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Quien Soy</h2>
+            <div class="row ">
+                <div class="col-6 ">
+                    <h2>Soy Elsa</h2>
+                    <p>
+
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has
+                        survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+                        with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+                <div class="col-6 ">
+                    <br><img class="img-fluid" src="https://qph.cf2.quoracdn.net/main-qimg-2908fc23cd483583b07c6b74e7a94c53-lq" alt="yeontan" style="width: 200px; height: 80%;">
+                </div>
+                <video src="./videos/VID_20240914_134454.mp4" controls="object-fit-contain" autoplay></video>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contactame -->
+    <section id="contactame" class="py-5 bg-light">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+
+                    <h4>Informaciòn del Contacto</h4>
+                    <p><i class="fa fa-envelope" aria-hidden="true"></i> layoverthv13@gmail.com</p>
+                    <p><i class="fa fa-phone" aria-hidden="true"></i> Cel: 918087169</p>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Direccion: Cusco-Peruvian</p>
+                    <p><i class="fa fa-clock-o" aria-hidden="true"></i> Horario de atencion: Lun - Vie, 9:00am a 3:00pm</p>
+
+                    <h4>Siguenos en Nuestras Redes Sociales</h4>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/elsa.cq.9" class="text-black mx-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-black mx-2"><i class="fab fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/kimthv13_?igsh=MWcwbGRwYXR4Ym93YQ==" class="text-black mx-2"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@kim.thv13?_t=8pfHyQPgwJ4&_r=1" class="text-black mx-2"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-6">
+                    <div class="container mt-1">
+                        <h2>Formulario de Contacto</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="correo">Correo Electrónico</label>
+                                <input type="email" class="form-control" id="correo" placeholder="correo@ejemplo.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nombres">Nombres</label>
+                                <input type="text" class="form-control" id="nombres" placeholder="Tus nombres" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="celular">Celular</label>
+                                <input type="tel" class="form-control" id="celular" placeholder="Número de celular" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- seccion contactame -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Mi Pagina Web. Todos los derechos reservados.</p>
+        <div class="social-icons">
+            <a href="https://www.facebook.com/elsa.cq.9" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/kimthv13_?igsh=MWcwbGRwYXR4Ym93YQ==" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@kim.thv13?_t=8pfHyQPgwJ4&_r=1" class="text-white mx-2"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+    <!-- Enlace a los scripts de Bootstrap y dependencias -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JavaScript personalizado -->
+    <script src="./scrip2.js"></script>
+</body>
+
+</html>
